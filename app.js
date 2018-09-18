@@ -147,9 +147,16 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
+
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+    var product =arr.reduce(function(acc,cur) {
+        return acc*cur;})
+
+    var result = [product,arr.join() + ' their product is ' + product]
+    return result;
 
 }
+console.log(multiplyAnyArray([1,2,3,4,5]));
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyAnyArray(testDynamicArray);
