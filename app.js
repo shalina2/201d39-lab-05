@@ -114,8 +114,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+    var product =arr.reduce(function(acc,cur) {
+        return acc*cur;})
+
+    var result = [product,arr.join() + ' their product is ' + product]
+    return result;
 
 }
+console.log(multiplyarrayany([2,3,4]));
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
