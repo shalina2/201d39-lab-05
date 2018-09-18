@@ -91,7 +91,7 @@ var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
     var array = [2 + 3 + 4]
-    var summary =' 2 ' + 3  + 4  + ' + was passed in as an aray of numbers ' + 'and' + sum  + 'is their sum ' + '.';
+    var summary =' 2 '+ 3  + 4  + ' + was passed in as an aray of numbers ' + 'and' + sum  + 'is their sum ' + '.';
     return [ array,summary]
 
 }
